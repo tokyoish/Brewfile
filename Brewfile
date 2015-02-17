@@ -30,7 +30,7 @@ cask install filezilla #/Applications/FileZilla.app
 #cask install forklift #/Applications/ForkLift.app
 
 # Utilities
-cask install  #/Applications/1Password 5.app
+#cask install  #/Applications/1Password 5.app
 cask install appcleaner #/Applications/AppCleaner.app
 cask install keka #~/Applications/Keka.app
 cask install bettertouchtool #/Applications/BetterTouchTool.app
@@ -38,7 +38,7 @@ cask install atext #/Applications/aText.app
 cask install mailbox #~/Applications/Mailbox (Beta).app
 cask install iterm2 #/Applications/iTerm.app
 cask install vlc #~/Applications/VLC.app
-cask install  #/Applications/Marked.app
+#cask install  #/Applications/Marked.app
 cask install libreoffice #~/Applications/LibreOffice.app
 
 # Productivity Apps
@@ -50,7 +50,7 @@ cask install skitch #~/Applications/Skitch.app
 
 # Dev Apps
 cask install virtualbox #/Applications/VirtualBox.app
-cask install  #/Applications/boot2docker.app
+#cask install  #/Applications/boot2docker.app
 
 
 # Apps previously installed, but not important so far
