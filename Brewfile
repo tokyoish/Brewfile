@@ -1,202 +1,174 @@
-
-# tap repositories and their packages
-
-tap homebrew/core
-brew ansible
-brew ant
-brew apr
-brew apr-util
-brew autoconf
-brew automake
-brew bash
-brew bdw-gc
-brew blueutil
-brew boost
-brew brotli
-brew c-ares
-brew cairo
-brew clisp
-brew cloog
-brew colordiff
-brew coreutils
-brew cpanminus
-brew dep
-brew diffutils
-brew ed
-brew findutils --with-default-names
-brew fontconfig
-brew freetype
-brew gawk
-brew gcc
-brew gdbm
-brew gettext
-brew ghc
-brew gist
-brew git
-brew git-flow
-brew glib
-brew gmp
-brew gnu-sed
-brew gnu-tar
-brew go
-brew grep
-brew gzip
-brew httpd
-brew icu4c
-brew isl
-brew jansson
-brew jemalloc
-brew jpeg
-brew libev
-brew libevent
-brew libffi
-brew libidn2
-brew libmpc
-brew libpng
-brew libsigsegv
-brew libtermkey
-brew libtiff
-brew libunistring
-brew libuv
-brew libvterm
-brew libyaml
-brew luajit
-brew lz4
-brew lzip
-brew mackup
-brew mas
-brew mercurial
-brew metis
-brew mpfr
-brew msgpack
-brew nano
-brew ncurses
-brew neovim
-brew nghttp2
-brew nkf
-brew node
-brew nodebrew
-brew numpy
-brew openblas
-brew openssl
-brew openssl@1.1
-brew pcre
-brew pcre2
-brew perl
-brew pixman
-brew pkg-config
-brew python
-brew python@2
-brew r
-brew rbenv
-brew rbenv-gemset
-brew readline
-brew reattach-to-user-namespace
-brew redis
-brew rename
-brew ruby-build
-brew sphinx-doc
-brew sqlite
-brew subversion
-brew suite-sparse
-brew swig
-brew tbb
-brew trash
-brew tree
-brew ucl
-brew unibilium
-brew unzip
-brew upx
-brew utf8proc
-brew w3m
-brew wget
-brew xz
-brew yarn
-
-tap homebrew/bundle
-
-tap homebrew/cask-drivers
-
-tap homebrew/cask-fonts
-cask font-takaoex
-
-tap homebrew/cask-versions
-cask 1password6
-cask google-chrome-canary
-
-tap homebrew/services
-
-tap homebrew/cask
-cask appcleaner
-cask docker
-cask evernote
-cask google-chrome
-cask java
-cask keka
-cask mamp
-cask skitch
-cask slack
-cask spotify
-cask virtualbox
-cask vlc
-
-tap argon/mas
-
-tap heroku/brew
-brew heroku
-brew heroku-node
-
-tap rcmdnk/file
-brew brew-file
-
-tap sachaos/todoist
-brew todoist
-
-tap samueljohn/python
-
-# Other Cask applications
-cask alfred2
-cask atom
-cask dropbox
-cask firefox
-cask hyper
-cask kaleidoscope
-cask karabiner
-cask kindle
-cask notion
-cask skype
-cask sourcetree
-cask sublime-text
-cask visual-studio-code
-
-# App Store applications
-appstore 513610341  (9.0.5)
-appstore 420212497 Byword (2.9.2)
-appstore 1254981365 Contrast (1.1)
-appstore 404789253 Cornerstone (2.7.18)
-appstore 422304217 Day One Classic (1.10.6)
-appstore 682658836 GarageBand (10.3.2)
-appstore 408981434 iMovie (10.1.12)
-appstore 408981381 iPhoto (9.6.1)
-appstore 409183694 Keynote (9.1)
-appstore 539883307 LINE (5.18.1)
-appstore 441258766 Magnet (2.4.4)
-appstore 448925439 Marked (1.4.3)
-appstore 1274495053 Microsoft To-Do (1.62)
-appstore 1289197285 MindNode (6.0.4)
-appstore 402398561 MindNode Pro (1.11.5)
-appstore 409203825 Numbers (6.1)
-appstore 409201541 Pages (8.1)
-appstore 568494494 Pocket (1.8.2)
-appstore 445189367 PopClip (1.5.8)
-appstore 948415170 Pushbullet (4)
-appstore 568020055 Scapple (1.30.3)
-appstore 425955336 Skitch (2.8.4)
-appstore 905944937 Textwell (1.6)
-appstore 425424353 The Unarchiver (4.1.0)
-appstore 585829637 Todoist (7.1.3)
-appstore 907364780 Tomato One (1.0.6)
-appstore 485812721 TweetDeck (3.16.1)
-appstore 414855915 WinArchiver Lite (2.5.3)
-appstore 497799835 Xcode (10.3)
-appstore 882655968 ZIPANG (1.1)
+tap "argon/mas"
+tap "github/gh"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "rcmdnk/file"
+tap "sachaos/todoist"
+brew "ansible"
+brew "ant"
+brew "apr-util"
+brew "autoconf"
+brew "automake"
+brew "bash"
+brew "bdw-gc"
+brew "blueutil"
+brew "boost"
+brew "brotli"
+brew "c-ares"
+brew "pkg-config"
+brew "cairo"
+brew "carthage"
+brew "coreutils"
+brew "libidn2"
+brew "nettle"
+brew "p11-kit"
+brew "unbound"
+brew "gnutls"
+brew "jansson"
+brew "emacs"
+brew "cask"
+brew "clisp"
+brew "cloog"
+brew "colordiff"
+brew "jpeg"
+brew "libtiff"
+brew "pcre2"
+brew "composer"
+brew "cpanminus"
+brew "dash"
+brew "dep"
+brew "diffutils"
+brew "ed", link: true
+brew "exa"
+brew "findutils"
+brew "mpfr"
+brew "gawk"
+brew "isl"
+brew "libmpc"
+brew "gcc"
+brew "gh"
+brew "ghc"
+brew "gist"
+brew "git"
+brew "git-flow"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "grep"
+brew "gzip"
+brew "httpd"
+brew "jemalloc"
+brew "openjdk@11"
+brew "jenkins"
+brew "libev"
+brew "libtermkey"
+brew "libuv"
+brew "libvterm"
+brew "luajit"
+brew "lz4"
+brew "lzip"
+brew "mackup"
+brew "mas"
+brew "maven"
+brew "mercurial"
+brew "metis"
+brew "msgpack"
+brew "ncurses"
+brew "nano"
+brew "neovim"
+brew "nghttp2"
+brew "nkf"
+brew "node"
+brew "nodebrew"
+brew "openblas"
+brew "numpy"
+brew "nvm"
+brew "perl"
+brew "python@2", link: false
+brew "python@3.8"
+brew "r"
+brew "ruby-build"
+brew "rbenv"
+brew "rbenv-gemset"
+brew "reattach-to-user-namespace"
+brew "redis"
+brew "rename"
+brew "sphinx-doc"
+brew "subversion"
+brew "suite-sparse"
+brew "swig"
+brew "tbb"
+brew "telnet"
+brew "trash"
+brew "tree"
+brew "ucl"
+brew "unzip"
+brew "upx"
+brew "w3m"
+brew "wget"
+brew "yarn"
+brew "heroku/brew/heroku-node", link: true
+brew "heroku/brew/heroku"
+brew "rcmdnk/file/brew-file"
+brew "sachaos/todoist/todoist"
+cask "1password6"
+cask "adobe-creative-cloud"
+cask "adoptopenjdk8"
+cask "appcleaner"
+cask "atom"
+cask "dropbox"
+cask "evernote"
+cask "fig"
+cask "firefox"
+cask "font-takaoex"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "hyper"
+cask "java"
+cask "kaleidoscope"
+cask "keka"
+cask "kindle"
+cask "mamp"
+cask "microsoft-edge-beta"
+cask "postman"
+cask "raycast"
+cask "skitch"
+cask "skype"
+cask "slack"
+cask "sourcetree"
+cask "tunnelblick"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+mas "Byword", id: 420212497
+mas "Clocker", id: 1056643111
+mas "Cornerstone", id: 404789253
+mas "Day One Classic", id: 422304217
+mas "Install macOS Catalina", id: 0
+mas "Keynote", id: 409183694
+mas "LINE WORKS", id: 1029784963
+mas "Magnet", id: 441258766
+mas "Marked", id: 448925439
+mas "MindNode", id: 1289197285
+mas "MindNode Pro", id: 402398561
+mas "Pocket", id: 568494494
+mas "PopClip", id: 445189367
+mas "Pushbullet", id: 948415170
+mas "Scapple", id: 568020055
+mas "Skitch", id: 425955336
+mas "Smart Countdown Timer", id: 1410709951
+mas "Termius", id: 1176074088
+mas "Textwell", id: 905944937
+mas "The Unarchiver", id: 425424353
+mas "Todoist", id: 585829637
+mas "Tomato One", id: 907364780
+mas "TweetDeck", id: 485812721
+mas "WinArchiver Lite", id: 414855915
+mas "Write", id: 848311469
+mas "Xcode", id: 497799835
+mas "ZIPANG", id: 882655968
